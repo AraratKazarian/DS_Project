@@ -1,0 +1,128 @@
+*{
+	margin:0;
+	padding:0;
+	border:none;
+	font-family: "Times New Roman", Times, serif;
+}
+
+body {
+	height: 100vh; 
+	overflow: hidden;
+}
+
+b{
+	font-size: 20px;
+	display: block;
+	margin-bottom: 5px;
+	height: 25px;
+	text-align: center;
+	color: #565656;
+}
+
+.dropdown{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.div2 {
+	width: 18%;
+	position: absolute;
+	left: 3%;
+	top: 15%;
+	z-index: 1;
+}
+
+.button1 {
+	margin: 15px 0 0 0;
+	background-color: #008CBA;
+	border: 2px solid #008CBA;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 8px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	width: 100%;
+}
+
+.button1:hover {
+	background-color: white;
+	color: #008CBA;
+}
+
+.div3 {
+	margin: 10px 0 0 0;
+	padding: 10px;
+	background-color: white;
+	border: 2px solid #008CBA;
+	border-radius: 5px;
+}
+.map {
+	height: 100vh;
+	width: 100vw;
+}
+.budget {
+	width: 96%;
+	height: 35px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	color: black;
+	padding-left: 4%;
+	font-size: 15px;
+}
+::placeholder {
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
+}
+.div4 {
+	color: #565656;
+	position: absolute;
+    width: 100%;
+    bottom: 2%;
+    text-align: center;
+}
+.div5 {
+	text-align: center;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.name {
+	width: 20%;
+	font-size: 20px;
+	background: white;
+	opacity: 0.8;
+	padding: 10px 0;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	display: flex;
+	justify-content: center;
+}
+.logo{
+	width: 30px;
+	height: 30px;
+	margin-left: 10px; 
+	background-image: url("/assets/logo.png");
+}
+.inputdiv {
+	margin-top: 25px; 
+}
+.input {
+	width: 96%;
+	height: 35px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	padding-left: 10px;
+	font-size: 15px;
+  	font-family: "Times New Roman", Times, serif;
+}
+.weather {
+	width: 100px;
+	height: 300px;
+	position: absolute;
+	top: 2%;
+	right: 11%;
+	opacity: 0.8;
+}
